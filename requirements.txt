@@ -1,0 +1,23 @@
+# Anxiety Robot - Python Dependencies
+
+# Data processing and numerical computation
+numpy
+pandas
+
+# Machine learning and preprocessing
+scikit-learn
+
+# Deep learning / trained Keras model
+tensorflow
+keras
+
+# Data visualization and robot animation
+matplotlib
+seaborn
+
+# Explainable AI
+shap
+lime
+
+# Model/data serialization
+joblib
