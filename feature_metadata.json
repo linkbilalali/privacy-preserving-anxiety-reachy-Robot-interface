@@ -1,0 +1,25 @@
+{
+    "target": "Anxiety_Risk",
+    "features": [
+        "Age",
+        "Gender",
+        "CGPA",
+        "Academic_Pressure",
+        "Financial_Stress",
+        "Study_Hours_Per_Day",
+        "Sleep_Duration",
+        "Social_Support",
+        "Exercise_Days_Per_Week",
+        "Diet_Quality",
+        "Family_History_Mental_Illness",
+        "Perceived_Stress"
+    ],
+    "model_type": "TensorFlow Keras Federated Learning Model",
+    "prediction_type": "Binary Anxiety Risk",
+    "classes": {
+        "0": "Low Anxiety Risk",
+        "1": "High Anxiety Risk"
+    },
+    "federated_clients": 5,
+    "communication_rounds": 5
+}
