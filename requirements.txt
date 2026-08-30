@@ -21,3 +21,17 @@ lime
 
 # Model/data serialization
 joblib
+# Cell 1 — install/verify packages
+!pip -q install imageio imageio-ffmpeg joblib
+
+import os, json, glob, warnings
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch, Circle, Ellipse, Arc, Rectangle
+from matplotlib.animation import FuncAnimation, PillowWriter, FFMpegWriter
+from IPython.display import display, HTML, Image
+import joblib
+
+warnings.filterwarnings('ignore')
+print('Python robot animation environment ready.')
